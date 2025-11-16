@@ -1,5 +1,8 @@
 # Avaliação A2 - Design Patterns e SOLID
 
+Aluno: William Felipe Coscodai
+RGM: 30051291
+
 ## Estrutura do Projeto
 
 ### Questão 1 - Strategy Pattern
@@ -33,13 +36,3 @@
   - OCP: Novos validadores podem ser adicionados
   - DIP: Validadores dependem de abstração
 - **Justificativa**: Chain permite validações sequenciais com lógica condicional
-
-## Compilação e Execução
-
-```bash
-# Compilar
-javac -d bin src/**/*.java
-
-# Executar
-java -cp bin Main
-```
